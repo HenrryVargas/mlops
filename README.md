@@ -1,2 +1,1 @@
-# mlops
-Machine learning devops
+# ncr-mlops-hol-code
