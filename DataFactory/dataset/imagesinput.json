@@ -1,0 +1,17 @@
+{
+	"name": "imagesinput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "execloninput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "test"
+			}
+		}
+	}
+}
