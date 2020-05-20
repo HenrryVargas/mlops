@@ -5,10 +5,13 @@
 		"factoryName": {
 			"value": "mlopsadf1"
 		},
+		"excelonoutput_accountKey": {
+			"value": ""
+		},
 		"execloninput_connectionString": {
 			"value": ""
 		},
-		"excelonoutput_accountKey": {
+		"exinput1_connectionString": {
 			"value": ""
 		},
 		"excelonoutput_properties_typeProperties_url": {

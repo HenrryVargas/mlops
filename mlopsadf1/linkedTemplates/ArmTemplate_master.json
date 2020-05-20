@@ -7,13 +7,17 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "mlopsadf1"
 		},
+		"excelonoutput_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'excelonoutput'"
+		},
 		"execloninput_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'execloninput'"
 		},
-		"excelonoutput_accountKey": {
+		"exinput1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'excelonoutput'"
+			"metadata": "Secure string for 'connectionString' of 'exinput1'"
 		},
 		"excelonoutput_properties_typeProperties_url": {
 			"type": "string",
@@ -46,11 +50,14 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"excelonoutput_accountKey": {
+						"value": "[parameters('excelonoutput_accountKey')]"
+					},
 					"execloninput_connectionString": {
 						"value": "[parameters('execloninput_connectionString')]"
 					},
-					"excelonoutput_accountKey": {
-						"value": "[parameters('excelonoutput_accountKey')]"
+					"exinput1_connectionString": {
+						"value": "[parameters('exinput1_connectionString')]"
 					},
 					"excelonoutput_properties_typeProperties_url": {
 						"value": "[parameters('excelonoutput_properties_typeProperties_url')]"
