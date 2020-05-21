@@ -29,6 +29,7 @@
 						}
 					},
 					"enableStaging": false,
+					"parallelCopies": 1,
 					"skipErrorFile": {
 						"fileMissing": true
 					},
